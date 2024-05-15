@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
 }
+
 .curved-bottom {
   position: relative;
   background-color: rgb(84, 167, 223);
@@ -12,6 +13,7 @@ body {
   overflow: hidden;
   margin-bottom: 400px;
 }
+
 .curved-line {
   position: absolute;
   bottom: 0;
@@ -56,12 +58,16 @@ body {
 
 .card-img-top {
   object-fit: cover;
-  height: 200px;
+  height: 300px;
 }
 
 .card-body {
   background-color: white;
   padding: 10px;
+}
+
+.card-title{
+  font-weight: 700 !important;
 }
 
 .purple {
@@ -72,16 +78,17 @@ body {
   font-size: 35px;
 }
 
-.footer {
+.contact-section {
   background-color: rgb(84, 167, 223);
   color: #fff;
   padding: 20px 0;
 }
+
 .contact-info {
   margin-bottom: 10px;
 }
 
-.footer img {
+.contact-section img {
   max-width: 100%;
   height: auto;
 }
@@ -93,13 +100,27 @@ body {
 .statistic-item h1 {
   font-weight: 800;
   font-size: 35px;
-} 
+}
 
 .my-projects {
   margin-top: 100px;
 }
 
-@media (max-width:769px) {
+.bg-snap {
+  background-color: #f0edee;
+  margin: 0 !important;
+}
+
+.copyright h4 {
+  font-size: 1em;
+}
+
+.hth{
+  height: 350px;
+  padding: 10px 0;
+}
+
+@media (max-width: 769px) {
   .curved-bottom {
     width: 100%;
     height: 100%;

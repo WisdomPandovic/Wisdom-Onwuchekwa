@@ -1,37 +1,46 @@
-# Personal Portfolio Template
+# Wisdom Onwuchekwa's Portfolio
 
-This is a simple template for creating a personal portfolio website. It includes sections for about me, portfolio projects, contact information, and statistics. The template is built using HTML, CSS (Bootstrap), and JavaScript.
+Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, and contact information.
 
-## Features
+## Live Demo
 
-- Responsive design for both desktop and mobile devices.
-- Elegant curved bottom edge design.
-- About Me section with social media links.
-- Portfolio section to showcase your projects.
-- Contact information section with icons.
-- Statistics section to display total projects, happy customers, and working hours.
+Explore the live demos of my portfolio:
 
-## How to Use
+- [Live Demo Link](https://my-portfolio-app-chi.vercel.app)
 
-1. Clone this repository to your local machine:
+## Table of Contents
 
-git clone https://github.com/WisdomPandovic/Personal-Portfolio-Template.git
+- [About Me](#about-me)
+- [Skills](#skills)
+- [Contact](#contact)
+- [Getting Started](#getting-started)
+- [License](#license)
 
-2. Customize the content in the HTML files to fit your personal information and projects.
-3. Update the images in the `images` folder with your own images.
-4. Modify the styles in the `styles.css` file to match your desired look and feel.
-5. Optionally, add more sections or features to suit your needs.
+## About Me
 
-## Credits
+I am Wisdom Onwuchekwa, a passionate and dedicated web developer and designer. With a keen eye for design and a strong foundation in web development technologies, I create engaging and user-centric digital experiences.
 
-- Bootstrap: [https://getbootstrap.com/](https://getbootstrap.com/)
-- Font Awesome: [https://fontawesome.com/](https://fontawesome.com/)
+## Skills
+
+- **Web Design:** I specialize in creating visually appealing and user-friendly web designs.
+- **Frontend Development:** Proficient in HTML5, CSS3, and JavaScript for building interactive and responsive websites.
+- **Backend Development:** Experienced with Node.js for server-side development.
+- **JavaScript Frameworks:** Skilled in working with React for building dynamic and efficient user interfaces.
+
+## Contact
+
+Feel free to get in touch with me:
+
+- **Email:** [wisdompandovic@gmail.com](mailto:wisdompandovic@gmail.com)
+- **Phone:** +234 8164827520
+- **LinkedIn:** [Wisdom Onwuchekwa](https://www.linkedin.com/in/wisdom-okezie-onwuchekwa)
+
+## Getting Started
+
+1. Clone this repository: `git clone https://github.com/WisdomPandovic/My-Portfolio-App.git`
+2. Navigate to the project directory: `cd your-portfolio`
+3. Open `index.html` in your preferred web browser.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-[Wisdom Onwuchekwa](https://github.com/WisdomPandovic)
-
+This project is licensed under the [MIT License](LICENSE).
