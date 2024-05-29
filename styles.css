@@ -132,10 +132,10 @@ body {
 }
 
 @media (max-width: 1024px) {
-  .hth {
+  /* .hth {
     overflow: hidden;
     white-space: nowrap;
-  }
+  } */
 }
 
 
