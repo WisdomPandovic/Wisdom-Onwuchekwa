@@ -66,8 +66,20 @@ body {
   padding: 10px;
 }
 
+.card-body h2{
+  font-size: 30px;
+}
+
+.card-title{
+  font-size: 15px;
+}
+
 .card-title{
   font-weight: 700 !important;
+}
+
+.card-text{
+  font-size: 14px;
 }
 
 .purple {
@@ -120,7 +132,7 @@ body {
 }
 
 .hth{
-  height: 350px;
+  height: 300px;
   padding: 10px 0;
 }
 
