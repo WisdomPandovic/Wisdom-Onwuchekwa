@@ -50,6 +50,30 @@
     <div class="row portfolio-section">
       <div class="col-lg-4 col-md-12">
         <div class="card portfolio-card">
+          <img src="./images/trendAi.png" class="card-img-top" alt="TrendAI Project">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h5 class="card-title">TrendAI Platform</h5>
+              <div class="d-flex">
+                <!-- <a href="https://www.trendai.app"><i class="fab fa-github text-dark"></i></a> -->
+                <a href="https://www.trendai.app" class="link-icon ms-2 text-dark"><i
+                    class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <p class="card-text hth">
+              TrendAI is a platform designed to revolutionize influencer marketing by connecting brands with hyper-local
+              micro-influencers. Using AI-driven algorithms, the app helps businesses discover influencers who align
+              with
+              their values and audience, enabling authentic and impactful partnerships. As the front-end developer, I
+              implemented responsive layouts, dynamic routing, and SEO-optimized pages using Next.js. I also worked on
+              seamless integration with APIs to provide real-time insights and analytics for both brands and
+              influencers.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="card portfolio-card">
           <img src="./images/Create-Next-App (1).png" class="card-img-top" alt="Project 1">
           <div class="card-body">
             <div class="d-flex justify-content-between">
@@ -79,8 +103,8 @@
               <div class="d-flex">
                 <a href="https://github.com/WisdomPandovic/Neophyte-Garments-React-App"><i
                     class="fab fa-github text-dark"></i></a>
-                <a href="https://neophyte-app.vercel.app/"
-                  target="_blank" class="link-icon ms-2 text-dark"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://neophyte-app.vercel.app/" target="_blank" class="link-icon ms-2 text-dark"><i
+                    class="fas fa-external-link-alt"></i></a>
               </div>
             </div>
             <p class="card-text hth">
@@ -101,16 +125,18 @@
               <div class="d-flex">
                 <a href="https://github.com/WisdomPandovic/Chilla-Sweella-Personal-Blog"><i
                     class="fab fa-github text-dark"></i></a>
-                <a href="https://chilla-sweella-personal-blog.vercel.app/home"
-                  target="_blank" class="link-icon ms-2 text-dark"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://chilla-sweella-personal-blog.vercel.app/home" target="_blank"
+                  class="link-icon ms-2 text-dark"><i class="fas fa-external-link-alt"></i></a>
               </div>
             </div>
             <p class="card-text hth">
               The Model Exclusive Content App is a sleek, user-centric web application designed for models to showcase
-               and monetize their content effectively. The platform allows models to upload posts—ranging from captivating 
-               visuals to engaging write-ups—for their audience to explore. 
-               Whether you're a model, creator, writer, or professional, the app provides a space to showcase your posts and 
-               products while giving readers and viewers the opportunity to pay for exclusive access.
+              and monetize their content effectively. The platform allows models to upload posts—ranging from
+              captivating
+              visuals to engaging write-ups—for their audience to explore.
+              Whether you're a model, creator, writer, or professional, the app provides a space to showcase your posts
+              and
+              products while giving readers and viewers the opportunity to pay for exclusive access.
             </p>
           </div>
         </div>
@@ -242,7 +268,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-12">
+      <!-- <div class="col-lg-4 col-md-12">
         <div class="card portfolio-card">
           <img src="./images/Wristwatch Paradise.png" class="card-img-top" alt="Project 3">
           <div class="card-body">
@@ -261,7 +287,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -337,13 +363,21 @@
 
   <footer>
     <div class="bg-snap copyright text-center text-dark">
-      <h4 class="pt-2">@2024 Wisdom Onwuchekwa | All Right Reserved</h4>
+      <h4 class="pt-2">
+        @<span id="currentYear"></span> Wisdom Onwuchekwa | All Rights Reserved
+      </h4>
       <p class="pb-2">Developed & Maintained by Panda</p>
     </div>
   </footer>
 
   <script src="main.js"></script>
   <script src="script.js"></script>
+
+  <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById("currentYear").textContent = currentYear;
+  </script>
+
 </body>
 
 </html>
