@@ -109,40 +109,6 @@ body {
   font-size: 24px;
 }
 
-.footer-icons a {
-  margin-right: 15px;
-  font-size: 1.5rem;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-.footer-icons a:hover {
-  transform: scale(1.2);
-  color: #007bff;
-}
-
-.contact-section::before {
-  content: '';
-  position: absolute;
-  top: 10%;
-  right: 5%;
-  width: 150px;
-  height: 150px;
-  background: rgba(0, 123, 255, 0.1);
-  border-radius: 50%;
-  z-index: 0;
-  animation: float 8s ease-in-out infinite;
-}
-
-.contact-section img:hover {
-  transform: scale(1.02);
-  transition: 0.3s ease;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-}
-
-.contact-info a{
-  color: white;
-  text-decoration: none;
-}
-
 .statistic-item h1 {
   font-weight: 800;
   font-size: 35px;
@@ -201,57 +167,4 @@ body {
   .hth{
     height: 400px;
   }
-}
-
-
-/* Fade Animation */
-/* .animate-fade {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.8s ease-out;
-}
-
-.animate-fade.show {
-  opacity: 1;
-  transform: translateY(0);
-} */
-
-/* Card Hover Effect */
-/* .portfolio-card {
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: none;
-}
-
-.portfolio-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-} */
-
-/* Social Icons Bounce */
-.social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  /* transition: transform 0.3s ease; */
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.social-icons a:hover {
-  transform: scale(1.2);
-  color: #007bff;
-}
-
-/* Stats Styling */
-.statistic-item h1 {
-  font-size: 2.5rem;
-  color: #007bff;
-}
-
-.portfolio-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.portfolio-card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
