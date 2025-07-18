@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Update total projects
     const totalProjectsElement =
       document.getElementById("total-projects");
-    animateCount(totalProjectsElement, 100, 2000); // Replace "100" with actual total projects count and "2000" with duration in milliseconds
+    animateCount(totalProjectsElement, 50, 2000); // Replace "100" with actual total projects count and "2000" with duration in milliseconds
 
     // Update happy customers
     const happyCustomersElement =
